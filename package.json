@@ -10,12 +10,16 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "sass": "^1.89.0",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
     "webpack": "^5.99.9",
     "webpack-dev-server": "^5.2.1"
   },
   "dependencies": {
     "loader": "^2.1.1",
-    "sass": "^1.89.0",
     "spaceinvader": "file:",
     "webpack-cli": "^6.0.1"
   },
