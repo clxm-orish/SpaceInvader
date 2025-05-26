@@ -13,7 +13,7 @@ let invaderController = new InvaderController(canvas);
 
 function game() {
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
-    invaderController.drawInvaders(ctx);
+    invaderController.draw(ctx);
 }
-setInterval(game, 6000)
+setInterval(game, 1000/60)
 
